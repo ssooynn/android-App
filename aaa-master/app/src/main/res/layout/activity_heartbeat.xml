@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Heartbeat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="심박수 측정 시작"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.3dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hodu"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="  귀에 측정기를\n꽂고 아래 버튼을\n   눌러주세요 !"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        />
+</LinearLayout>

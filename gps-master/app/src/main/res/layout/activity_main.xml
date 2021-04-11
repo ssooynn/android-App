@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/hodu2"
+tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/btn_pat"
+    android:layout_width="111dp"
+    android:layout_height="110dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:backgroundTint="#E6C45F"
+    android:text="일반 회원"
+    android:textColor="#020202"
+    android:textSize="30sp"
+    app:layout_constraintBottom_toBottomOf="@+id/btn_fam"
+    app:layout_constraintEnd_toStartOf="@+id/btn_fam"
+    app:layout_constraintStart_toStartOf="@+id/textView2"
+    app:layout_constraintTop_toTopOf="@+id/btn_fam"
+    app:layout_constraintVertical_bias="0.0" />
+
+<Button
+    android:id="@+id/btn_fam"
+    android:layout_width="117dp"
+    android:layout_height="111dp"
+    android:layout_marginEnd="8dp"
+    android:backgroundTint="#E6C45F"
+    android:text="보호자 회원"
+    android:textColor="#FC030303"
+    android:textSize="30sp"
+    app:layout_constraintEnd_toEndOf="@+id/textView2"
+    app:layout_constraintStart_toEndOf="@+id/btn_pat"
+    tools:layout_editor_absoluteY="310dp" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="160dp"
+    android:layout_marginEnd="8dp"
+    android:text="회원종류선택"
+    android:textAllCaps="true"
+    android:textColor="#F70C0C0C"
+    android:textSize="36sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

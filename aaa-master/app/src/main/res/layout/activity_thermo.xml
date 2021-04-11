@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThermoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="체온 측정 시작"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.3dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="  센서에 손을 올리고\n      아래의 온도계를 \n        눌러주세요 !"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+
+    <Button
+        android:layout_width="143dp"
+        android:layout_height="345dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/meter" />
+
+</LinearLayout>
